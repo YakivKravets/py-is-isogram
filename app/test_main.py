@@ -5,10 +5,10 @@ import pytest
 @pytest.mark.parametrize(
     "word, expected",
     [
-        ('playgrounds', True),
-        ('look', False),
-        ('Adam', False),
-        ('', True),
+        ("playgrounds", True),
+        ("look", False),
+        ("Adam", False),
+        ("", True),
     ],
 )
 def test_values(word: str, expected: bool) -> None:
